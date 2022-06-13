@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class LineComputation {
     public static void main(String[] args) {
         System.out.println("Welcome to Line Computation program");
+        lineProblem();
+
+    }
+
+    public static void lineProblem() {
         double lengthOfLine, line1, line2;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the x1 value");
