@@ -24,5 +24,11 @@ public class LineComputation {
         } else {
             System.out.println("Two lines are not equal");
         }
+        if (line1 > line2) {
+            System.out.println("line1 is the maximum");
+        } else {
+            System.out.println("line2 is the maximum");
+        }
+
     }
 }
